@@ -29,6 +29,7 @@ visualizeUI <- function(id) {
     )
   )
   
+  # TODO: add group option
   ui_color_facets <- fluidRow(
     column(
       width = 6,

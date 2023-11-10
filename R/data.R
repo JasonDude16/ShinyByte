@@ -176,6 +176,7 @@ dataServer <- function(id) {
       }
     })
     
+    # TODO: filter out NAs if they're present in factor
     output$ui_var_filter <- renderUI({
       req(vals$df)
       if (input$modify_type == "filter") {
